@@ -45,3 +45,39 @@ GERENCIANET_PIX_KEY=chave_pix_gerencianet
 
 # para usar GERENCIANET Em backend\certs
 # Salvar o certificado no formato .p12
+
+
+
+
+Preparação para instalação...
+------
+-
+Para a instalação você vai precisar:
+
+- Recomendações -
+
+Sistema------------------
+
+⚠️Ubuntu 20.04
+
+Nosso token de Acesso, vai pedir para instalação...
+
+
+-----
+
+( Vai precisar de 2 subdomínio )
+
+Subdomínio para Frontend 👉🏻 https://app.nomedoseudominio.com
+Subdomínio para API (Backend) 👉🏻 https://api.nomedoseudominio.com
+
+Frontend - app.nomedoseudominio.com
+Backend - api.nomedoseudominio.com
+
+
+## COPIAR A PASTA PARA ROOT E RODAR OS COMANDOS ABAIXO ##
+
+-----
+
+sudo apt update && sudo apt install -y git && git clone https://github.com/.../instalador.io.git && cd instalador.io && chmod +x panel.sh && ./panel.sh
+
+-----
